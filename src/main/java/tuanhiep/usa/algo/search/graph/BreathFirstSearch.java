@@ -74,8 +74,10 @@ public class BreathFirstSearch extends abstractAlgo {
     }
 
     public Object getResult() {
-
-        return null;
+        if (getParameters().isEmpty()) {
+            return false;
+        }
+        return getParameters().get(getParameters().size() - 1);
     }
 
     public void print() {

@@ -4,9 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>tuanhiep.us.algorithms</groupId>
-    <artifactId>algorithms</artifactId>
+    <groupId>io.github.tuanhiep</groupId>
+    <artifactId>java-algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>java-algorithms</name>
+    <description>Java implementations for algorithms and interview practice.</description>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
@@ -25,8 +27,8 @@
 
     </dependencies>
     <properties>
-        <maven.compiler.source>1.10</maven.compiler.source>
-        <maven.compiler.target>1.10</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 </project>
