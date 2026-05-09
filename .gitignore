@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+*.iml
+.vscode/
+target/
+out/
+build/
+.gradle/
+*.log
+*.icloud
